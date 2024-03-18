@@ -100,3 +100,14 @@ console.log("success");
 write(); read();
 append();
 
+Assignment No - 4
+
+Const express = require('express');
+const app = express();
+
+app.get('/',(req,res)=>{
+    res.send("welcome to MCA");
+});
+app.listen(4000,()=>{
+    console.log("Listen to port 4000")
+});
